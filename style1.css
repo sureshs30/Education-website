@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: blue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+li,
+a {
+    text-decoration: none;
+    font-size: 20px;
+    display: inline;
+    color: white;
+    padding: 5px;
+    font-weight: 700;
+}
+
+.query {
+    border-radius: 3px;
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.query:hover {
+    background-color: rgba(196, 216, 20, 0.26);
+    border: 2px white solid;
+}
+
+.top {
+    text-align: center;
+    color: rgb(15, 18, 214);
+    font-size: 30px;
+}
+
+p {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+    word-spacing: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: blue;
+    margin-top: 40px;
+}
+
+.item1 {
+    height: 500px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.item2 {
+    background-color: rgb(10, 51, 233);
+    height: 400px;
+    margin-top: 30px;
+    margin-right: 50px;
+    border-radius: 50px;
+    width: 400px;
+}
+
+.data {
+    color: white;
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.formelement {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+label {
+    padding-right: 40px;
+}
+
+input {
+    padding: 8px;
+    word-spacing: 5px;
+    margin: 5px;
+}
+
+.btn {
+    background-color: orange;
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+span {
+    color: black;
+}
+
+.courselist {
+    color: blue;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.item3 {
+    background-color: blue;
+    height: 500px;
+    border: 3px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.course {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    background-color: orange;
+}
+
+.coursep {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.courselistli {
+    display: list-item;
+    list-style-type: circle;
+}
+
+h5 {
+    color: rgb(236, 222, 22);
+}
+
+button {
+    padding: 15px;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.placement {
+    color: blue;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 20px;
+}
+
+.std {
+    background-color: blue;
+    height: 300px;
+    border: 3px solid white;
+}
+
+.stdtest {
+    color: white;
+}
+
+.stdtesth {
+    color: white;
+    padding-top: 10px;
+}
+
+.stdtest {
+    padding-top: 20px;
+}
+
+footer {
+    background-color: blue;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.foot {
+    margin-top: 100px;
+    margin-left: 600px;
+}
